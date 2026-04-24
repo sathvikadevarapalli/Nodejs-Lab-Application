@@ -1,0 +1,131 @@
+body {
+     background-color: lightgrey;
+     font-family: Arial;
+}
+div {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 600px) {
+    .item {
+        flex-direction: column;
+    }
+}
+#big_image {
+    width:120px;
+    height:120px;
+}
+#highlight_item {
+    background-color: #fff3cd;
+}
+#color_item {
+    background-color: #ffe6e6;
+}
+#change_color {
+    background-color: lightcyan;
+}
+.login-box {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: lightskyblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0,0,0,0,2);
+}
+.login-box h2 {
+    text-align: center;
+}
+.login-box label {
+     display: block;
+     margin-top: 10px;
+}
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+.login-box button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.top-bar {
+    background-color: #222;
+    padding: 10px;
+    text-align: right;
+}
+.checkout {
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.add-cart {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-cart:hover {
+    background-color: #0056b3;
+}
+.add-cart {
+    display: inline-block;
+    text-decoration: none;
+}
+.checkout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.payment-options label {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.payment-options input[type="radio"] {
+  margin-right: 10px;
+}
+.payment-options label:hover {
+  background-color: #f0f0f0;
+}
+.pay-btn {
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.pay-btn:hover {
+  background-color: #45a049;
+}ssss
